@@ -12,7 +12,7 @@ effect.reveal('#hero-section', {
 
 effect.reveal('#skills', {
   origin: 'left',
-  viewFactor: 0.3,
+  viewFactor: 0.5,
   delay: 500
 });
 
@@ -24,7 +24,7 @@ effect.reveal('#project-section', {
 
 effect.reveal('#contact-me', {
   origin: 'bottom',
-  viewFactor: 0.3,
+  viewFactor: 0.2,
   delay: 500
 });
 
