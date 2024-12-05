@@ -82,7 +82,8 @@
     </nav>
 
     <section
-      id="hero-section" class="flex flex-col-reverse md:flex-row items-center justify-around px-4 md:px-8 mx-8 md:my-20"
+      id="hero-section"
+      class="flex flex-col-reverse md:flex-row items-center justify-around px-4 md:px-8 mx-8 md:my-20"
     >
       <div
         class="flex flex-col gap-8 text-center md:text-left relative max-md:pt-8"
@@ -197,24 +198,104 @@
     </section>
 
     <section id="project-section" class="pt-12">
-      <div class="px-12 m-8 md:my-20 flex flex-col gap-8 rounded-lg">
-        <h2 class="text-2xl font-semibold">● Projects</h2>
-        <div class="flex flex-col-reverse lg:flex-row gap-8 items-center">
-          <img
-            src="./src/images/SDC-website.png"
-            alt=""
-            class="lg:w-1/2 rounded-md shadow-lg shadow-slate-900"
-          />
-          <div class="  ">
-            <h2 class="text-lg font-semibold mb-4">
-              Standing Desk Ecommerce Landing Page
-            </h2>
-            <p class="tect-md leading-8">
-              An Ecommerce website that sell adjustable desks to improve posture
-              and health for those who spend most of their time on desks and
-              chiars. A responsive website with add to cart features an search
-              function.
-            </p>
+      <div class="px-12 m-8 md:my-20 rounded-lg">
+        <h2 class="text-2xl font-semibold mb-12">● Projects</h2>
+        <div class="md:px-12 px-4">
+          <div class="w-[90%] mx-auto relative">
+            <input
+              id="article-01"
+              type="radio"
+              name="slider"
+              class="sr-only peer/01"
+            />
+            <input
+              id="article-02"
+              type="radio"
+              name="slider"
+              class="sr-only peer/02"
+              checked
+            />
+            <input
+              id="article-03"
+              type="radio"
+              name="slider"
+              class="sr-only peer/03"
+            />
+
+            <div
+              class="absolute inset-0 scale-[67.5%] z-20 transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] peer-focus-visible/01:[&_article]:ring peer-focus-visible/01:[&_article]:ring-indigo-300 peer-checked/01:relative peer-checked/01:z-50 peer-checked/01:translate-x-0 peer-checked/01:scale-100 peer-checked/01:[&>label]:pointer-events-none peer-checked/02:-translate-x-40 peer-checked/02:scale-[83.75%] peer-checked/02:z-40 peer-checked/03:-translate-x-80 peer-checked/03:z-30"
+            >
+              <label class="absolute inset-0" for="article-01">
+                <span class="sr-only">Weather Forecast</span>
+              </label>
+              <article class="bg-[#B8DBD9] p-10 rounded-lg shadow-2xl">
+                <div class="md:flex md:gap-8 items-center">
+                  <div class="md:w-1/2 mb-4 md:mb-0">
+                    <img src="./src/images/weather-forecast.jpg" alt="" />
+                  </div>
+                  <div class="md:w-1/2 flex flex-col gap-4">
+                    <h1 class="text-xl font-bold text-slate-900">
+                      Weather Forecast
+                    </h1>
+                    <p class="leading-8">
+                      A weather forecast website that show current date, temperature and including humidity and wind speed. It also includes 5 days forecast with highest and lowest temperature of the day.
+                    </p>
+                  <a href="https://weather-forecast-app-withshecodes.netlify.app/" target="_blank" class="bg-[#586F7C] text-white px-4 py-2 rounded-lg w-fit">Demo</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div
+              class="absolute inset-0 scale-[67.5%] z-20 transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] peer-focus-visible/02:[&_article]:ring peer-focus-visible/02:[&_article]:ring-indigo-300 peer-checked/01:translate-x-40 peer-checked/01:scale-[83.75%] peer-checked/01:z-40 peer-checked/02:relative peer-checked/02:z-50 peer-checked/02:translate-x-0 peer-checked/02:scale-100 peer-checked/02:[&>label]:pointer-events-none peer-checked/03:-translate-x-40 peer-checked/03:scale-[83.75%] peer-checked/03:z-40"
+            >
+              <label class="absolute inset-0" for="article-02">
+                <span class="sr-only">Standing Desk Ecommerce</span>
+              </label>
+              <article class="bg-[#B8DBD9] p-10 rounded-lg shadow-2xl">
+                <div class="md:flex md:gap-8 items-center">
+                  <div class="md:w-1/2 mb-4 md:mb-0">
+                    <img src="./src/images/SDC-website.png" alt="" />
+                  </div>
+                  <div class="md:w-1/2 flex flex-col gap-4">
+                    <h1 class="text-xl font-bold text-slate-900">
+                      Ecommerce Landing Page
+                    </h1>
+                    <p class="leading-8">
+                      An ecommerce website that sell adjustable desks to improve
+                      posture and health for those who spend most of their time
+                      on desks and chiars. A responsive website with add to cart
+                      features an search function.
+                    </p>
+                  <a href="https://standingdeskcompany.netlify.app/" target="_blank" class="bg-[#586F7C] text-white px-4 py-2 rounded-lg w-fit">Demo</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div
+              class="absolute inset-0 scale-[67.5%] z-20 transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] peer-focus-visible/03:[&_article]:ring peer-focus-visible/03:[&_article]:ring-indigo-300 peer-checked/01:translate-x-80 peer-checked/01:z-30 peer-checked/02:translate-x-40 peer-checked/02:scale-[83.75%] peer-checked/02:z-40 peer-checked/03:relative peer-checked/03:z-50 peer-checked/03:translate-x-0 peer-checked/03:scale-100 peer-checked/03:[&>label]:pointer-events-none"
+            >
+              <label class="absolute inset-0" for="article-03">
+                <span class="sr-only">World Clock</span>
+              </label>
+              <article class="bg-[#B8DBD9] p-10 rounded-lg shadow-2xl">
+                <div class="md:flex md:gap-8 items-center">
+                  <div class="md:w-1/2 mb-4 md:mb-0">
+                    <img src="./src/images/checktimebuddy.jpg" alt="" />
+                  </div>
+                  <div class="md:w-1/2 flex flex-col gap-4">
+                    <h2 class="text-lg font-semibold">
+                      Check Time Buddy
+                    </h2>
+                    <p class="leading-8">
+                      Check current local time and any time zone with Check Time Buddy. It shows update time, date and chosen cities.
+                    </p>
+                  <a href="https://checktimebuddy.netlify.app/" target="_blank" class="bg-[#586F7C] text-white px-4 py-2 rounded-lg w-fit">Demo</a>
+                  </div>
+                </div>
+              </article>
+            </div>
           </div>
         </div>
       </div>
