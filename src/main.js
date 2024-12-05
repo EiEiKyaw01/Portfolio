@@ -10,20 +10,26 @@ effect.reveal('#hero-section', {
   delay: 0
 });
 
+effect.reveal("#aboutMe", {
+  origin: "left",
+  viewFactor: 0.5,
+  delay: 500,
+});
+
 effect.reveal('#skills', {
-  origin: 'left',
+  origin: 'right',
   viewFactor: 0.5,
   delay: 500
 });
 
 effect.reveal('#project-section', {
-  origin: 'right',
+  origin: 'left',
   viewFactor: 0.3,
   delay: 500
 });
 
 effect.reveal('#contact-me', {
-  origin: 'bottom',
+  origin: 'right',
   viewFactor: 0.2,
   delay: 500
 });
