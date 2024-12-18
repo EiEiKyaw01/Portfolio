@@ -12,507 +12,525 @@
         class="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]"
       ></div>
     </div>
-    <nav
-      class="bg-[#2f4550] text-[#F4F4F9] flex justify-around items-center p-4 m-8 rounded-2xl text-lg sticky top-5 z-50 shadow-lg"
-    >
-      <a href="#aboutMe" class="no-underline flex gap-2 items-center hover:underline"
-        ><svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          class="size-6"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M18.685 19.097A9.723 9.723 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 0 0 3.065 7.097A9.716 9.716 0 0 0 12 21.75a9.716 9.716 0 0 0 6.685-2.653Zm-12.54-1.285A7.486 7.486 0 0 1 12 15a7.486 7.486 0 0 1 5.855 2.812A8.224 8.224 0 0 1 12 20.25a8.224 8.224 0 0 1-5.855-2.438ZM15.75 9a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
-            clip-rule="evenodd"
-          />
-        </svg>
-        <span class="max-sm:hidden">About Me</span></a
+    <main class=" md:px-16">
+      <nav
+        class="bg-[#2f4550] text-[#F4F4F9] flex justify-around items-center p-4 m-8 rounded-2xl text-lg sticky top-5 z-50 shadow-lg"
       >
-      <a href="#skills" class="no-underline flex gap-2 items-center hover:underline"
-        ><svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          class="size-6"
-        >
-          <path
-            d="M12 .75a8.25 8.25 0 0 0-4.135 15.39c.686.398 1.115 1.008 1.134 1.623a.75.75 0 0 0 .577.706c.352.083.71.148 1.074.195.323.041.6-.218.6-.544v-4.661a6.714 6.714 0 0 1-.937-.171.75.75 0 1 1 .374-1.453 5.261 5.261 0 0 0 2.626 0 .75.75 0 1 1 .374 1.452 6.712 6.712 0 0 1-.937.172v4.66c0 .327.277.586.6.545.364-.047.722-.112 1.074-.195a.75.75 0 0 0 .577-.706c.02-.615.448-1.225 1.134-1.623A8.25 8.25 0 0 0 12 .75Z"
-          />
-          <path
-            fill-rule="evenodd"
-            d="M9.013 19.9a.75.75 0 0 1 .877-.597 11.319 11.319 0 0 0 4.22 0 .75.75 0 1 1 .28 1.473 12.819 12.819 0 0 1-4.78 0 .75.75 0 0 1-.597-.876ZM9.754 22.344a.75.75 0 0 1 .824-.668 13.682 13.682 0 0 0 2.844 0 .75.75 0 1 1 .156 1.492 15.156 15.156 0 0 1-3.156 0 .75.75 0 0 1-.668-.824Z"
-            clip-rule="evenodd"
-          />
-        </svg>
-        <span class="max-sm:hidden">Skills</span></a
-      >
-      <a href="#project-section" class="no-underline flex gap-2 items-center hover:underline"
-        ><svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          class="size-6"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M1.5 7.125c0-1.036.84-1.875 1.875-1.875h6c1.036 0 1.875.84 1.875 1.875v3.75c0 1.036-.84 1.875-1.875 1.875h-6A1.875 1.875 0 0 1 1.5 10.875v-3.75Zm12 1.5c0-1.036.84-1.875 1.875-1.875h5.25c1.035 0 1.875.84 1.875 1.875v8.25c0 1.035-.84 1.875-1.875 1.875h-5.25a1.875 1.875 0 0 1-1.875-1.875v-8.25ZM3 16.125c0-1.036.84-1.875 1.875-1.875h5.25c1.036 0 1.875.84 1.875 1.875v2.25c0 1.035-.84 1.875-1.875 1.875h-5.25A1.875 1.875 0 0 1 3 18.375v-2.25Z"
-            clip-rule="evenodd"
-          />
-        </svg>
-        <span class="max-sm:hidden">Projects</span></a
-      >
-      <a href="#contact-me" class="no-underline flex gap-2 items-center hover:underline"
-        ><svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-          class="size-6"
-        >
-          <path
-            d="M4.913 2.658c2.075-.27 4.19-.408 6.337-.408 2.147 0 4.262.139 6.337.408 1.922.25 3.291 1.861 3.405 3.727a4.403 4.403 0 0 0-1.032-.211 50.89 50.89 0 0 0-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 0 0 2.433 3.984L7.28 21.53A.75.75 0 0 1 6 21v-4.03a48.527 48.527 0 0 1-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979Z"
-          />
-          <path
-            d="M15.75 7.5c-1.376 0-2.739.057-4.086.169C10.124 7.797 9 9.103 9 10.609v4.285c0 1.507 1.128 2.814 2.67 2.94 1.243.102 2.5.157 3.768.165l2.782 2.781a.75.75 0 0 0 1.28-.53v-2.39l.33-.026c1.542-.125 2.67-1.433 2.67-2.94v-4.286c0-1.505-1.125-2.811-2.664-2.94A49.392 49.392 0 0 0 15.75 7.5Z"
-          />
-        </svg>
-        <span class="max-sm:hidden">Contact Me</span></a
-      >
-    </nav>
-
-    <section
-      id="hero-section"
-      class="flex flex-col-reverse md:flex-row items-center justify-around px-4 md:px-8 mx-8 md:my-20"
-    >
-      <div
-        class="flex flex-col gap-8 text-center md:text-left relative max-md:pt-8"
-      >
-        <span
-          class="block absolute -rotate-45 top-0 -left-4 text-lg md:text-2xl md:-top-10 md:-left-8"
-          >Hello!</span
-        >
-        <h1 class="text-2xl font-bold md:text-6xl">I'm Ei Ei Kyaw</h1>
-        <h2 class="text-xl md:text-3xl">A front-end developer from Myanmar</h2>
-        <div class="flex gap-4 justify-center md:justify-start">
-          <a
-            href="www.linkedin.com/in/eieikyaw-75aa852a9"
-            target="_blank"
-            class="size-8"
-            ><img src="./src/images/linkedin.png" alt="" class="w-full h-full"
-          /></a>
-
-          <a href="https://github.com/AkiKyaw" target="_blank" class="size-8"
-            ><img src="./src/images/github.png" alt="" class="w-full h-full"
-          /></a>
-
-          <a
-            href="https://line.me/ti/p/ysqdY_rGBm"
-            class="size-8"
-            target="_blank"
-            ><img src="./src/images/line.png" alt="" class="w-full h-full"
-          /></a>
-        </div>
-      </div>
-      <div class="w-1/2">
-        <img
-          src="./src/images/undraw_proud_coder_re_exuy.svg"
-          alt=""
-          class="w-full h-full"
-        />
-      </div>
-    </section>
-
-    <section id="aboutMe" class="pt-12">
-      <div class="py-10 px-12 mx-8 mt-8 md:mt-20">
-        <h2 class="text-2xl font-semibold">● About Me</h2>
-        <div
-          class="flex justify-between flex-col md:flex-row items-center mt-8"
-        >
-          <div
-            class="w-1/2 h-1/2 md:w-1/4 md:h-1/4 bg-[#586F7C] rounded-full overflow-hidden mb-8 md:mb-0"
+        <a
+          href="#aboutMe"
+          class="no-underline flex gap-2 items-center hover:underline"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="size-6"
           >
-            <img
-              src="./src/images/EiEiKyaw-removebg.png"
-              alt=""
-              class="w-full h-full"
+            <path
+              fill-rule="evenodd"
+              d="M18.685 19.097A9.723 9.723 0 0 0 21.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 0 0 3.065 7.097A9.716 9.716 0 0 0 12 21.75a9.716 9.716 0 0 0 6.685-2.653Zm-12.54-1.285A7.486 7.486 0 0 1 12 15a7.486 7.486 0 0 1 5.855 2.812A8.224 8.224 0 0 1 12 20.25a8.224 8.224 0 0 1-5.855-2.438ZM15.75 9a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
+              clip-rule="evenodd"
             />
-          </div>
-          <p class="leading-8 md:w-2/3">
-            I'm a front-end developer with a passion for crafting simple,
-            elegant,and functional websites. While my journey as a developer is
-            just beginning, I know it's going to be an unstoppable and exciting
-            adventure. Currently, I specialize in JavaScript and am eager to
-            explore many more programming languages. <br />
-            Beyond coding, I enjoy listening to audiobooks, watching movies, and
-            crocheting as creative outlets. I also love brainstorming new ideas
-            and embracing challenges.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="skills" class="pt-12">
-      <div
-        class="py-10 px-12 mx-8 mt-8 md:mt-20 flex flex-col gap-8 rounded-lg bg-[#586F7C]"
-      >
-        <h2 class="text-2xl font-semibold text-[#F4F4F9]">● Skills & Tools</h2>
-        <div class="flex flex-wrap gap-5">
-          <div
-            class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
+          </svg>
+          <span class="max-sm:hidden">About Me</span></a
+        >
+        <a
+          href="#skills"
+          class="no-underline flex gap-2 items-center hover:underline"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="size-6"
           >
-            <div class="w-7 h-7">
-              <img src="./src/images/html.png" alt="" class="w-full" />
-            </div>
-            <p class="">HTML</p>
-          </div>
-
-          <div
-            class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
-          >
-            <div class="w-7 h-7">
-              <img src="./src/images/css.png" alt="" class="w-full" />
-            </div>
-            <p class="">CSS</p>
-          </div>
-
-          <div
-            class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
-          >
-            <div class="w-7 h-7">
-              <img src="./src/images/js.png" alt="" class="w-full" />
-            </div>
-            <p class="">Javascript</p>
-          </div>
-
-          <div
-            class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
-          >
-            <div class="w-7 h-7">
-              <img src="./src/images/git.png" alt="" class="w-full" />
-            </div>
-            <p class="">Git</p>
-          </div>
-
-          <div
-            class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
-          >
-            <div class="w-7 h-7">
-              <img src="./src/images/github.png" alt="" class="w-full" />
-            </div>
-            <p class="">Github</p>
-          </div>
-
-          <div
-            class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
-          >
-            <div class="w-7 h-7">
-              <img src="./src/images/figma.png" alt="" class="w-full" />
-            </div>
-            <p class="">Figma</p>
-          </div>
-
-          <div
-            class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
-          >
-            <div class="w-7 h-7 content-center">
-              <img src="./src/images/tailwind.png" alt="" class="w-full" />
-            </div>
-            <p class="">Tailwind</p>
-          </div>
-
-          <div
-            class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
-          >
-            <div class="w-7 h-7">
-              <img src="./src/images/mysql.png" alt="" class="w-full" />
-            </div>
-            <p class="">MySQL</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="project-section" class="pt-12 max-lg:overflow-x-hidden">
-      <div class="px-12 m-8 md:my-20 rounded-lg">
-        <h2 class="text-2xl font-semibold mb-12">● Projects</h2>
-        <div class="md:px-12 px-4">
-          <div class="w-[90%] mx-auto relative">
-            <input
-              id="article-01"
-              type="radio"
-              name="slider"
-              class="sr-only peer/01"
+            <path
+              d="M12 .75a8.25 8.25 0 0 0-4.135 15.39c.686.398 1.115 1.008 1.134 1.623a.75.75 0 0 0 .577.706c.352.083.71.148 1.074.195.323.041.6-.218.6-.544v-4.661a6.714 6.714 0 0 1-.937-.171.75.75 0 1 1 .374-1.453 5.261 5.261 0 0 0 2.626 0 .75.75 0 1 1 .374 1.452 6.712 6.712 0 0 1-.937.172v4.66c0 .327.277.586.6.545.364-.047.722-.112 1.074-.195a.75.75 0 0 0 .577-.706c.02-.615.448-1.225 1.134-1.623A8.25 8.25 0 0 0 12 .75Z"
             />
-            <input
-              id="article-02"
-              type="radio"
-              name="slider"
-              class="sr-only peer/02"
-              checked
+            <path
+              fill-rule="evenodd"
+              d="M9.013 19.9a.75.75 0 0 1 .877-.597 11.319 11.319 0 0 0 4.22 0 .75.75 0 1 1 .28 1.473 12.819 12.819 0 0 1-4.78 0 .75.75 0 0 1-.597-.876ZM9.754 22.344a.75.75 0 0 1 .824-.668 13.682 13.682 0 0 0 2.844 0 .75.75 0 1 1 .156 1.492 15.156 15.156 0 0 1-3.156 0 .75.75 0 0 1-.668-.824Z"
+              clip-rule="evenodd"
             />
-            <input
-              id="article-03"
-              type="radio"
-              name="slider"
-              class="sr-only peer/03"
+          </svg>
+          <span class="max-sm:hidden">Skills</span></a
+        >
+        <a
+          href="#project-section"
+          class="no-underline flex gap-2 items-center hover:underline"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="size-6"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1.5 7.125c0-1.036.84-1.875 1.875-1.875h6c1.036 0 1.875.84 1.875 1.875v3.75c0 1.036-.84 1.875-1.875 1.875h-6A1.875 1.875 0 0 1 1.5 10.875v-3.75Zm12 1.5c0-1.036.84-1.875 1.875-1.875h5.25c1.035 0 1.875.84 1.875 1.875v8.25c0 1.035-.84 1.875-1.875 1.875h-5.25a1.875 1.875 0 0 1-1.875-1.875v-8.25ZM3 16.125c0-1.036.84-1.875 1.875-1.875h5.25c1.036 0 1.875.84 1.875 1.875v2.25c0 1.035-.84 1.875-1.875 1.875h-5.25A1.875 1.875 0 0 1 3 18.375v-2.25Z"
+              clip-rule="evenodd"
             />
+          </svg>
+          <span class="max-sm:hidden">Projects</span></a
+        >
+        <a
+          href="#contact-me"
+          class="no-underline flex gap-2 items-center hover:underline"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="size-6"
+          >
+            <path
+              d="M4.913 2.658c2.075-.27 4.19-.408 6.337-.408 2.147 0 4.262.139 6.337.408 1.922.25 3.291 1.861 3.405 3.727a4.403 4.403 0 0 0-1.032-.211 50.89 50.89 0 0 0-8.42 0c-2.358.196-4.04 2.19-4.04 4.434v4.286a4.47 4.47 0 0 0 2.433 3.984L7.28 21.53A.75.75 0 0 1 6 21v-4.03a48.527 48.527 0 0 1-1.087-.128C2.905 16.58 1.5 14.833 1.5 12.862V6.638c0-1.97 1.405-3.718 3.413-3.979Z"
+            />
+            <path
+              d="M15.75 7.5c-1.376 0-2.739.057-4.086.169C10.124 7.797 9 9.103 9 10.609v4.285c0 1.507 1.128 2.814 2.67 2.94 1.243.102 2.5.157 3.768.165l2.782 2.781a.75.75 0 0 0 1.28-.53v-2.39l.33-.026c1.542-.125 2.67-1.433 2.67-2.94v-4.286c0-1.505-1.125-2.811-2.664-2.94A49.392 49.392 0 0 0 15.75 7.5Z"
+            />
+          </svg>
+          <span class="max-sm:hidden">Contact Me</span></a
+        >
+      </nav>
 
-            <div
-              class="absolute inset-0 scale-[67.5%] z-20 transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] peer-focus-visible/01:[&_article]:ring peer-focus-visible/01:[&_article]:ring-indigo-300 peer-checked/01:relative peer-checked/01:z-50 peer-checked/01:translate-x-0 peer-checked/01:scale-100 peer-checked/01:[&>label]:pointer-events-none peer-checked/02:-translate-x-40 peer-checked/02:scale-[83.75%] peer-checked/02:z-40 peer-checked/03:-translate-x-80 peer-checked/03:z-30"
-            >
-              <label class="absolute inset-0" for="article-01">
-                <span class="sr-only">Weather Forecast</span>
-              </label>
-              <article class="bg-[#B8DBD9] md:p-10 p-4 rounded-lg shadow-2xl">
-                <div class="lg:flex lg:gap-8 items-center">
-                  <div class="lg:w-1/2 mb-4 lg:mb-0">
-                    <img src="./src/images/weather-forecast.jpg" alt="" />
-                  </div>
-                  <div class="lg:w-1/2 flex flex-col gap-4">
-                    <h1 class="md:text-xl text-md font-bold text-slate-900">
-                      Weather Forecast
-                    </h1>
-                    <p class="leading-8 max-sm:hidden">
-                      A weather forecast website that show current date,
-                      temperature and including humidity and wind speed.
-                    </p>
-                    <a
-                      href="https://weather-forecast-app-withshecodes.netlify.app/"
-                      target="_blank"
-                      class="bg-[#586F7C] text-white px-4 py-2 rounded-lg w-fit hover:-translate-y-2"
-                      >Demo</a
-                    >
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <div
-              class="absolute inset-0 scale-[67.5%] z-20 transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] peer-focus-visible/02:[&_article]:ring peer-focus-visible/02:[&_article]:ring-indigo-300 peer-checked/01:translate-x-40 peer-checked/01:scale-[83.75%] peer-checked/01:z-40 peer-checked/02:relative peer-checked/02:z-50 peer-checked/02:translate-x-0 peer-checked/02:scale-100 peer-checked/02:[&>label]:pointer-events-none peer-checked/03:-translate-x-40 peer-checked/03:scale-[83.75%] peer-checked/03:z-40"
-            >
-              <label class="absolute inset-0" for="article-02">
-                <span class="sr-only">Standing Desk Ecommerce</span>
-              </label>
-              <article class="bg-[#B8DBD9] md:p-10 p-4 rounded-lg shadow-2xl">
-                <div class="lg:flex lg:gap-8 items-center">
-                  <div class="lg:w-1/2 mb-4 lg:mb-0">
-                    <img src="./src/images/SDC-website.png" alt="" />
-                  </div>
-                  <div class="lg:w-1/2 flex flex-col gap-4">
-                    <h1 class="md:text-xl text-md font-bold text-slate-900">
-                      Ecommerce Landing Page
-                    </h1>
-                    <p class="leading-8 max-sm:hidden">
-                      An responsive ecommerce website that sell adjustable desks
-                      to improve posture and health for those who spend most of
-                      their time on desks and chiars.
-                    </p>
-                    <a
-                      href="https://standingdeskcompany.netlify.app/"
-                      target="_blank"
-                      class="bg-[#586F7C] text-white px-4 py-2 rounded-lg w-fit hover:-translate-y-2"
-                      >Demo</a
-                    >
-                  </div>
-                </div>
-              </article>
-            </div>
-
-            <div
-              class="absolute inset-0 scale-[67.5%] z-20 transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] peer-focus-visible/03:[&_article]:ring peer-focus-visible/03:[&_article]:ring-indigo-300 peer-checked/01:translate-x-80 peer-checked/01:z-30 peer-checked/02:translate-x-40 peer-checked/02:scale-[83.75%] peer-checked/02:z-40 peer-checked/03:relative peer-checked/03:z-50 peer-checked/03:translate-x-0 peer-checked/03:scale-100 peer-checked/03:[&>label]:pointer-events-none"
-            >
-              <label class="absolute inset-0" for="article-03">
-                <span class="sr-only">World Clock</span>
-              </label>
-              <article class="bg-[#B8DBD9] md:p-10 p-4 rounded-lg shadow-2xl">
-                <div class="lg:flex lg:gap-8 items-center">
-                  <div class="lg:w-1/2 mb-4 lg:mb-0">
-                    <img src="./src/images/checktimebuddy.jpg" alt="" />
-                  </div>
-                  <div class="lg:w-1/2 flex flex-col gap-4">
-                    <h2 class="md:text-xl text-md font-semibold">
-                      Check Time Buddy
-                    </h2>
-                    <p class="leading-8 max-sm:hidden">
-                      Check current local time and any time zone with Check Time
-                      Buddy. It shows update time, date and chosen cities.
-                    </p>
-                    <a
-                      href="https://checktimebuddy.netlify.app/"
-                      target="_blank"
-                      class="bg-[#586F7C] text-white px-4 py-2 rounded-lg w-fit hover:-translate-y-2"
-                      >Demo</a
-                    >
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact-me" class="pt-20">
-      <div
-        class="p-10 mx-8 mb-4 rounded-lg bg-[#586F7C] flex flex-col md:flex-row gap-10"
+      <section
+        id="hero-section"
+        class="flex flex-col-reverse md:flex-row items-center justify-around px-4 md:px-8 mx-8 md:my-20"
       >
         <div
-          class="flex flex-col gap-3 md:max-w-[50%] justify-around text-[#F4F4F9]"
+          class="flex flex-col gap-8 text-center md:text-left relative max-md:pt-8"
         >
-          <div>
-            <h2 class="text-3xl font-semibold mb-8">Let's Connect</h2>
-            <p class="md:text-justify leading-9 text-md">
-              I'm always excited to connect with like-minded professionals,
-              collaborate on innovative projects, or discuss new opportunities.
-              I strive to deliver user-focused, responsive designs that bring
-              ideas to life. Currently, I'm open to job roles where I can
-              contribute my skills, tackle exciting challenges, and grow as part
-              of a dynamic team. <br />Let's connect and create something
-              amazing together!
-            </p>
-          </div>
-          <div class="flex flex-row-reverse items-center max-lg:block">
-            <div class="w-[50%] m-auto max-lg:hidden">
-              <img
-                src="./src/images/undraw_portfolio_website_re_jsdd.svg"
+          <span
+            class="block absolute -rotate-45 top-0 -left-4 text-lg md:text-2xl md:-top-10 md:-left-8"
+            >Hello!</span
+          >
+          <h1 class="text-2xl font-bold md:text-6xl">I'm Ei Ei Kyaw</h1>
+          <h2 class="text-xl md:text-3xl">
+            A front-end developer from Myanmar
+          </h2>
+          <div class="flex gap-4 justify-center md:justify-start">
+            <a
+              href="www.linkedin.com/in/eieikyaw-75aa852a9"
+              target="_blank"
+              class="size-8"
+              ><img
+                src="./src/images/linkedin.png"
                 alt=""
+                class="w-full h-full"
+            /></a>
+
+            <a href="https://github.com/AkiKyaw" target="_blank" class="size-8"
+              ><img src="./src/images/github.png" alt="" class="w-full h-full"
+            /></a>
+
+            <a
+              href="https://line.me/ti/p/ysqdY_rGBm"
+              class="size-8"
+              target="_blank"
+              ><img src="./src/images/line.png" alt="" class="w-full h-full"
+            /></a>
+          </div>
+        </div>
+        <div class="w-1/2">
+          <img
+            src="./src/images/undraw_proud_coder_re_exuy.svg"
+            alt=""
+            class="w-full h-full"
+          />
+        </div>
+      </section>
+
+      <section id="aboutMe" class="pt-12">
+        <div class="py-10 px-12 mx-8 mt-8 md:mt-20">
+          <h2 class="text-2xl font-semibold">● About Me</h2>
+          <div
+            class="flex justify-between flex-col lg:flex-row items-center mt-8"
+          >
+            <div
+              class="w-1/2 h-1/2 lg:w-1/4 lg:h-1/4 bg-[#586F7C] rounded-full overflow-hidden mb-8 lg:mb-0"
+            >
+              <img
+                src="./src/images/EiEiKyaw-removebg.png"
+                alt=""
+                class="w-full h-full"
               />
             </div>
-            <div class="flex flex-col gap-6 mb-5">
+            <p class="leading-9 lg:w-2/3">
+              I'm a front-end developer with a passion for crafting simple,
+              elegant,and functional websites. While my journey as a developer
+              is just beginning, I know it's going to be an unstoppable and
+              exciting adventure. Currently, I specialize in JavaScript and am
+              eager to explore many more programming languages. <br />
+              Beyond coding, I enjoy listening to audiobooks, watching movies,
+              and crocheting as creative outlets. I also love brainstorming new
+              ideas and embracing challenges.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="pt-12">
+        <div
+          class="py-10 px-12 mx-8 mt-8 md:mt-20 flex flex-col gap-8 rounded-lg bg-[#586F7C]"
+        >
+          <h2 class="text-2xl font-semibold text-[#F4F4F9]">
+            ● Skills & Tools
+          </h2>
+          <div class="flex flex-wrap gap-5">
+            <div
+              class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
+            >
+              <div class="w-7 h-7">
+                <img src="./src/images/html.png" alt="" class="w-full" />
+              </div>
+              <p class="">HTML</p>
+            </div>
+
+            <div
+              class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
+            >
+              <div class="w-7 h-7">
+                <img src="./src/images/css.png" alt="" class="w-full" />
+              </div>
+              <p class="">CSS</p>
+            </div>
+
+            <div
+              class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
+            >
+              <div class="w-7 h-7">
+                <img src="./src/images/js.png" alt="" class="w-full" />
+              </div>
+              <p class="">Javascript</p>
+            </div>
+
+            <div
+              class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
+            >
+              <div class="w-7 h-7">
+                <img src="./src/images/git.png" alt="" class="w-full" />
+              </div>
+              <p class="">Git</p>
+            </div>
+
+            <div
+              class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
+            >
+              <div class="w-7 h-7">
+                <img src="./src/images/github.png" alt="" class="w-full" />
+              </div>
+              <p class="">Github</p>
+            </div>
+
+            <div
+              class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
+            >
+              <div class="w-7 h-7">
+                <img src="./src/images/figma.png" alt="" class="w-full" />
+              </div>
+              <p class="">Figma</p>
+            </div>
+
+            <div
+              class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
+            >
+              <div class="w-7 h-7 content-center">
+                <img src="./src/images/tailwind.png" alt="" class="w-full" />
+              </div>
+              <p class="">Tailwind</p>
+            </div>
+
+            <div
+              class="bg-[#B8DBD9] text-[#000] font-bold text-center rounded-md p-4 flex gap-5 items-center"
+            >
+              <div class="w-7 h-7">
+                <img src="./src/images/mysql.png" alt="" class="w-full" />
+              </div>
+              <p class="">MySQL</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="project-section" class="pt-12 max-lg:overflow-x-hidden">
+        <div class="px-12 m-8 md:my-20 rounded-lg">
+          <h2 class="text-2xl font-semibold mb-12">● Projects</h2>
+          <div class="md:px-12 px-4">
+            <div class="w-[90%] mx-auto relative">
+              <input
+                id="article-01"
+                type="radio"
+                name="slider"
+                class="sr-only peer/01"
+              />
+              <input
+                id="article-02"
+                type="radio"
+                name="slider"
+                class="sr-only peer/02"
+                checked
+              />
+              <input
+                id="article-03"
+                type="radio"
+                name="slider"
+                class="sr-only peer/03"
+              />
+
               <div
-                class="flex flex-col gap-3 sm:justify-between justify-between"
+                class="absolute inset-0 scale-[67.5%] z-20 transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] peer-focus-visible/01:[&_article]:ring peer-focus-visible/01:[&_article]:ring-indigo-300 peer-checked/01:relative peer-checked/01:z-50 peer-checked/01:translate-x-0 peer-checked/01:scale-100 peer-checked/01:[&>label]:pointer-events-none peer-checked/02:-translate-x-40 peer-checked/02:scale-[83.75%] peer-checked/02:z-40 peer-checked/03:-translate-x-80 peer-checked/03:z-30"
               >
-                <div class="flex gap-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="size-6"
-                  >
-                    <path
-                      d="M10.5 18.75a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-3Z"
-                    />
-                    <path
-                      fill-rule="evenodd"
-                      d="M8.625.75A3.375 3.375 0 0 0 5.25 4.125v15.75a3.375 3.375 0 0 0 3.375 3.375h6.75a3.375 3.375 0 0 0 3.375-3.375V4.125A3.375 3.375 0 0 0 15.375.75h-6.75ZM7.5 4.125C7.5 3.504 8.004 3 8.625 3H9.75v.375c0 .621.504 1.125 1.125 1.125h2.25c.621 0 1.125-.504 1.125-1.125V3h1.125c.621 0 1.125.504 1.125 1.125v15.75c0 .621-.504 1.125-1.125 1.125h-6.75A1.125 1.125 0 0 1 7.5 19.875V4.125Z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                  <p>+95 9759936979</p>
-                </div>
-
-                <div class="flex gap-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="size-6"
-                  >
-                    <path
-                      d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"
-                    />
-                    <path
-                      d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"
-                    />
-                  </svg>
-                  <p>11eikyw@gmail.com</p>
-                </div>
-
-                <div class="flex gap-3">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    class="size-6"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                  <p>Yangon, Myanmar</p>
-                </div>
+                <label class="absolute inset-0" for="article-01">
+                  <span class="sr-only">Weather Forecast</span>
+                </label>
+                <article class="bg-[#B8DBD9] md:p-10 p-4 rounded-lg shadow-2xl">
+                  <div class="lg:flex lg:gap-8 items-center">
+                    <div class="lg:w-1/2 mb-4 lg:mb-0">
+                      <img src="./src/images/weather-forecast.jpg" alt="" />
+                    </div>
+                    <div class="lg:w-1/2 flex flex-col gap-4">
+                      <h1 class="md:text-xl text-md font-bold text-slate-900">
+                        Weather Forecast
+                      </h1>
+                      <p class="leading-8 max-sm:hidden">
+                        A weather forecast website that show current date,
+                        temperature and including humidity and wind speed.
+                      </p>
+                      <a
+                        href="https://weather-forecast-app-withshecodes.netlify.app/"
+                        target="_blank"
+                        class="bg-[#586F7C] text-white px-4 py-2 rounded-lg w-fit hover:-translate-y-2"
+                        >Demo</a
+                      >
+                    </div>
+                  </div>
+                </article>
               </div>
 
-              <div class="flex gap-4">
-                <a
-                  href="www.linkedin.com/in/eieikyaw-75aa852a9"
-                  target="_blank"
-                  class="bg-[#F4F4F9] p-1 size-8 rounded-md"
-                  ><img
-                    src="./src/images/linkedin.png"
-                    alt=""
-                    class="w-full h-full"
-                /></a>
+              <div
+                class="absolute inset-0 scale-[67.5%] z-20 transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] peer-focus-visible/02:[&_article]:ring peer-focus-visible/02:[&_article]:ring-indigo-300 peer-checked/01:translate-x-40 peer-checked/01:scale-[83.75%] peer-checked/01:z-40 peer-checked/02:relative peer-checked/02:z-50 peer-checked/02:translate-x-0 peer-checked/02:scale-100 peer-checked/02:[&>label]:pointer-events-none peer-checked/03:-translate-x-40 peer-checked/03:scale-[83.75%] peer-checked/03:z-40"
+              >
+                <label class="absolute inset-0" for="article-02">
+                  <span class="sr-only">Standing Desk Ecommerce</span>
+                </label>
+                <article class="bg-[#B8DBD9] md:p-10 p-4 rounded-lg shadow-2xl">
+                  <div class="lg:flex lg:gap-8 items-center">
+                    <div class="lg:w-1/2 mb-4 lg:mb-0">
+                      <img src="./src/images/SDC-website.png" alt="" />
+                    </div>
+                    <div class="lg:w-1/2 flex flex-col gap-4">
+                      <h1 class="md:text-xl text-md font-bold text-slate-900">
+                        Ecommerce Landing Page
+                      </h1>
+                      <p class="leading-8 max-sm:hidden">
+                        An responsive ecommerce website that sell adjustable
+                        desks to improve posture and health for those who spend
+                        most of their time on desks and chiars.
+                      </p>
+                      <a
+                        href="https://standingdeskcompany.netlify.app/"
+                        target="_blank"
+                        class="bg-[#586F7C] text-white px-4 py-2 rounded-lg w-fit hover:-translate-y-2"
+                        >Demo</a
+                      >
+                    </div>
+                  </div>
+                </article>
+              </div>
 
-                <a
-                  href="https://github.com/AkiKyaw"
-                  target="_blank"
-                  class="bg-[#F4F4F9] p-1 size-8 rounded-md"
-                  ><img
-                    src="./src/images/github.png"
-                    alt=""
-                    class="w-full h-full"
-                /></a>
-
-                <a
-                  href="https://line.me/ti/p/ysqdY_rGBm"
-                  class="bg-[#F4F4F9] p-1 size-8 rounded-md"
-                  target="_blank"
-                  ><img
-                    src="./src/images/line.png"
-                    alt=""
-                    class="w-full h-full"
-                /></a>
+              <div
+                class="absolute inset-0 scale-[67.5%] z-20 transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] peer-focus-visible/03:[&_article]:ring peer-focus-visible/03:[&_article]:ring-indigo-300 peer-checked/01:translate-x-80 peer-checked/01:z-30 peer-checked/02:translate-x-40 peer-checked/02:scale-[83.75%] peer-checked/02:z-40 peer-checked/03:relative peer-checked/03:z-50 peer-checked/03:translate-x-0 peer-checked/03:scale-100 peer-checked/03:[&>label]:pointer-events-none"
+              >
+                <label class="absolute inset-0" for="article-03">
+                  <span class="sr-only">World Clock</span>
+                </label>
+                <article class="bg-[#B8DBD9] md:p-10 p-4 rounded-lg shadow-2xl">
+                  <div class="lg:flex lg:gap-8 items-center">
+                    <div class="lg:w-1/2 mb-4 lg:mb-0">
+                      <img src="./src/images/checktimebuddy.jpg" alt="" />
+                    </div>
+                    <div class="lg:w-1/2 flex flex-col gap-4">
+                      <h2 class="md:text-xl text-md font-semibold">
+                        Check Time Buddy
+                      </h2>
+                      <p class="leading-8 max-sm:hidden">
+                        Check current local time and any time zone with Check
+                        Time Buddy. It shows update time, date and chosen
+                        cities.
+                      </p>
+                      <a
+                        href="https://checktimebuddy.netlify.app/"
+                        target="_blank"
+                        class="bg-[#586F7C] text-white px-4 py-2 rounded-lg w-fit hover:-translate-y-2"
+                        >Demo</a
+                      >
+                    </div>
+                  </div>
+                </article>
               </div>
             </div>
           </div>
         </div>
-        <div class="p-8 rounded-xl shadow-xl bg-[#F4F4F9] text-black flex-1">
-          <h2 class="text-3xl font-semibold mb-4">Send Me Message</h2>
-          <form
-            action="mailto:11eikyw@gmail.com"
-            method="post"
-            enctype="text/plain"
-            class="flex flex-col gap-3"
+      </section>
+
+      <section id="contact-me" class="pt-20">
+        <div
+          class="p-10 mx-8 mb-4 rounded-lg bg-[#586F7C] flex flex-col md:flex-row gap-10"
+        >
+          <div
+            class="flex flex-col gap-3 md:max-w-[50%] justify-around text-[#F4F4F9]"
           >
-            <label for="name">Name</label>
-            <input
-              type="text"
-              required
-              name="name"
-              id="name"
-              class="border-b-2 border-[#2F4550] p-2 bg-transparent"
-            />
+            <div>
+              <h2 class="text-3xl font-semibold mb-8">Let's Connect</h2>
+              <p class="md:text-justify leading-9 text-md">
+                I'm always excited to connect with like-minded professionals,
+                collaborate on innovative projects, or discuss new
+                opportunities. I strive to deliver user-focused, responsive
+                designs that bring ideas to life. Currently, I'm open to job
+                roles where I can contribute my skills, tackle exciting
+                challenges, and grow as part of a dynamic team. <br />Let's
+                connect and create something amazing together!
+              </p>
+            </div>
+            <div class="flex flex-row-reverse items-center max-lg:block">
+              <div class="w-[50%] m-auto max-lg:hidden">
+                <img
+                  src="./src/images/undraw_portfolio_website_re_jsdd.svg"
+                  alt=""
+                />
+              </div>
+              <div class="flex flex-col gap-6 mb-5">
+                <div
+                  class="flex flex-col gap-3 sm:justify-between justify-between"
+                >
+                  <div class="flex gap-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        d="M10.5 18.75a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-3Z"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        d="M8.625.75A3.375 3.375 0 0 0 5.25 4.125v15.75a3.375 3.375 0 0 0 3.375 3.375h6.75a3.375 3.375 0 0 0 3.375-3.375V4.125A3.375 3.375 0 0 0 15.375.75h-6.75ZM7.5 4.125C7.5 3.504 8.004 3 8.625 3H9.75v.375c0 .621.504 1.125 1.125 1.125h2.25c.621 0 1.125-.504 1.125-1.125V3h1.125c.621 0 1.125.504 1.125 1.125v15.75c0 .621-.504 1.125-1.125 1.125h-6.75A1.125 1.125 0 0 1 7.5 19.875V4.125Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <p>+95 9759936979</p>
+                  </div>
 
-            <label for="email">Email Address</label>
-            <input
-              type="text"
-              name="email"
-              id="email"
-              class="border-b-2 border-[#2F4550] p-2 bg-transparent"
-            />
+                  <div class="flex gap-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"
+                      />
+                      <path
+                        d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"
+                      />
+                    </svg>
+                    <p>11eikyw@gmail.com</p>
+                  </div>
 
-            <label for="comment">Message</label>
-            <textarea
-              name="comment"
-              id="comment"
-              rows="3"
-              class="border-2 rounded-lg p-4 border-[#2F4550] bg-transparent"
-              placeholder="Leave a message here."
-            ></textarea>
+                  <div class="flex gap-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      class="size-6"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <p>Yangon, Myanmar</p>
+                  </div>
+                </div>
 
-            <input
-              type="submit"
-              value="Send"
-              class="w-fit px-4 py-2 rounded-md bg-[#B8DBD9] hover:cursor-pointer"
-            />
-          </form>
+                <div class="flex gap-4">
+                  <a
+                    href="www.linkedin.com/in/eieikyaw-75aa852a9"
+                    target="_blank"
+                    class="bg-[#F4F4F9] p-1 size-8 rounded-md"
+                    ><img
+                      src="./src/images/linkedin.png"
+                      alt=""
+                      class="w-full h-full"
+                  /></a>
+
+                  <a
+                    href="https://github.com/AkiKyaw"
+                    target="_blank"
+                    class="bg-[#F4F4F9] p-1 size-8 rounded-md"
+                    ><img
+                      src="./src/images/github.png"
+                      alt=""
+                      class="w-full h-full"
+                  /></a>
+
+                  <a
+                    href="https://line.me/ti/p/ysqdY_rGBm"
+                    class="bg-[#F4F4F9] p-1 size-8 rounded-md"
+                    target="_blank"
+                    ><img
+                      src="./src/images/line.png"
+                      alt=""
+                      class="w-full h-full"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-8 rounded-xl shadow-xl bg-[#F4F4F9] text-black flex-1">
+            <h2 class="text-3xl font-semibold mb-4">Send Me Message</h2>
+            <form
+              action="mailto:11eikyw@gmail.com"
+              method="post"
+              enctype="text/plain"
+              class="flex flex-col gap-3"
+            >
+              <label for="name">Name</label>
+              <input
+                type="text"
+                required
+                name="name"
+                id="name"
+                class="border-b-2 border-[#2F4550] p-2 bg-transparent"
+              />
+
+              <label for="email">Email Address</label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                class="border-b-2 border-[#2F4550] p-2 bg-transparent"
+              />
+
+              <label for="comment">Message</label>
+              <textarea
+                name="comment"
+                id="comment"
+                rows="3"
+                class="border-2 rounded-lg p-4 border-[#2F4550] bg-transparent"
+                placeholder="Leave a message here."
+              ></textarea>
+
+              <input
+                type="submit"
+                value="Send"
+                class="w-fit px-4 py-2 rounded-md bg-[#B8DBD9] hover:cursor-pointer"
+              />
+            </form>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <script type="module" src="./src/main.js"></script>
   </body>
